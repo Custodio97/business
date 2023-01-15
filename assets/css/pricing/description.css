@@ -1,0 +1,39 @@
+.section-desc{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: #0d6efd;
+    background-image: url("../../images/call-action/overlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.section-desc h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin:2rem ;
+}
+
+.section-desc p{
+    font-size: 1.4rem;
+    margin: 2rem;
+}
+
+.section-desc button{
+    border: 2px solid #fff;
+    background-color:transparent;
+    color: #fff;
+    padding: .80rem 3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-desc button:hover{
+    background-color: #fff;
+    color: #0d6efd;
+    transition-duration: .8s;
+}
+
+

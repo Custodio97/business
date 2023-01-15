@@ -1,0 +1,27 @@
+/*Global*/
+@import "global/global.css";
+
+/*Header*/
+@import "header/header.css";
+
+/*Home*/
+@import "home/home.css";
+
+/*Section*/
+@import "home/our_story.css";
+
+/*Services*/
+@import "services/services.css";
+
+
+/*Contact*/
+@import "contact/contact.css";
+
+/*Pricing*/
+@import "pricing/pricing.css";
+@import "pricing/description.css";
+/*animation scroll*/
+@import "animation/scroll.css";
+
+/*Footer*/
+@import "footer/footer.css";

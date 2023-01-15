@@ -1,0 +1,94 @@
+.pricing{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.pricing .span{
+  border: 3px solid #0d6efd;
+  padding: .60rem 2rem;
+  border-radius: 50px;
+  display: inline-block;
+  margin-bottom: 2rem;
+  
+}
+
+.pricing .title{
+    font-size: 2.3rem;
+    margin-bottom: 2.3rem;
+}
+
+.pricing .paragrapy{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.pricing .list-pricing{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.pricing .list-pricing .item-pricing{
+    width: 100%;
+    padding: 2.4rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.pricing .list-pricing .item-pricing .span{
+    padding: .60rem 3rem;
+}
+
+.pricing .list-pricing .item-pricing .span.blue{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.pricing .list-pricing .item-pricing p{
+    color: gray;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.pricing .list-pricing .item-pricing h2{
+    font-size: 2.45rem;
+    margin-bottom: 2rem;
+}
+
+.pricing .list-pricing .item-pricing button{
+    border: 2px solid #0d6efd;
+    background-color:transparent;
+    padding: .80rem 3rem;
+    margin-bottom: 2rem;
+    color: #0d6efd;
+    cursor: pointer;
+}
+.pricing .list-pricing .item-pricing button:hover{
+    background-color: #0d6efd;
+    color: #fff;
+    transition-duration: .8s;
+}
+.pricing .list-pricing .item-pricing button.active{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.pricing .list-pricing .item-pricing .description{
+    list-style-image: url("../../images/favicon.svg");
+    margin-left: 15px;
+    width: 100%;
+    
+}
+
+
+@media (min-width: 920px){
+    .pricing .list-pricing{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem;
+    }
+
+    .pricing .list-pricing .item-pricing button {
+       padding: .80rem 4rem;
+    }
+}

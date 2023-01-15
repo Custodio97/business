@@ -1,0 +1,11 @@
+.js-scroll{
+    opacity: 0;
+    visibility: hidden;
+   
+}
+
+.js-scroll.active{
+opacity: 1;
+visibility: visible;
+transition-duration: 1.5s;
+}

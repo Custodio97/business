@@ -1,0 +1,112 @@
+.contact{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+    background-color: #fff;
+   
+}
+
+.contact span{
+    padding: .80rem 3rem;
+    background-color:#0d6efd;
+    border-radius: 50px;
+    color: #fff;
+}
+.contact h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.contact .images{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.contact  .images img{
+    width:  100%;
+}
+.contact form{
+    width: 100%;
+    border-radius: 5px;
+    padding: 2rem;
+    height: max-content;
+    background-color: #0d6efd;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.contact form .header-form{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.contact form .input-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.contact form .input-box input{
+    width: 100%;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: #0d6efd;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+   
+}
+
+.contact form .input-box input::placeholder{
+    color: #fff;
+}
+.contact form textarea{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    padding: 1rem;
+    outline: none;
+}
+
+.contact form button{
+    width: 120px;
+    padding: .90rem 0;
+    margin: auto;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact form button:hover{
+    background-color: #fff;
+    color: #0d6efd;
+    transition-duration: .8s;
+}
+
+@media (min-width: 920px) {
+    .contact{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact form .input-box{
+            flex-direction: row;
+            gap: 30px;
+    }
+
+    .contact form{
+        width: 50%;
+    }
+}
